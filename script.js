@@ -8,7 +8,7 @@ function volume_sphere() {
 	let pi=Math.PI;
 	let v=Math.round(((4/3)*pi*Math.pow(r,3))*10000)/10000;
 	let vol==document.getElementById('volume');
-	vol.textContent=v;
+	vol.value=v;
 	
   
 } 
